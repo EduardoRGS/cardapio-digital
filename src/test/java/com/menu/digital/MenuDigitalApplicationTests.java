@@ -1,4 +1,4 @@
-package com.menu.digital.menudigital;
+package com.menu.digital;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

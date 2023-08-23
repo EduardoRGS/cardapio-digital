@@ -1,9 +1,9 @@
-package com.menu.digital.menudigital.service;
+package com.menu.digital.service;
 
-import com.menu.digital.menudigital.dto.FoodRequestDTO;
-import com.menu.digital.menudigital.dto.FoodResponseDTO;
-import com.menu.digital.menudigital.entity.Food;
-import com.menu.digital.menudigital.repository.FoodRepository;
+import com.menu.digital.dto.FoodRequestDTO;
+import com.menu.digital.dto.FoodResponseDTO;
+import com.menu.digital.entity.Food;
+import com.menu.digital.repository.FoodRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

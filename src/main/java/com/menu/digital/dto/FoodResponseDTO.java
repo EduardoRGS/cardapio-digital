@@ -1,6 +1,6 @@
-package com.menu.digital.menudigital.dto;
+package com.menu.digital.dto;
 
-import com.menu.digital.menudigital.entity.Food;
+import com.menu.digital.entity.Food;
 
 public record FoodResponseDTO(Long id, String title, String image, Integer price) {
     public FoodResponseDTO(Food food) {

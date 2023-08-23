@@ -1,6 +1,6 @@
-package com.menu.digital.menudigital.entity;
+package com.menu.digital.entity;
 
-import com.menu.digital.menudigital.dto.FoodRequestDTO;
+import com.menu.digital.dto.FoodRequestDTO;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;

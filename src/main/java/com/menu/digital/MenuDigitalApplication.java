@@ -1,4 +1,4 @@
-package com.menu.digital.menudigital;
+package com.menu.digital;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

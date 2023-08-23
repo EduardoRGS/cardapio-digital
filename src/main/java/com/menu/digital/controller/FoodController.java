@@ -1,8 +1,8 @@
-package com.menu.digital.menudigital.controller;
+package com.menu.digital.controller;
 
-import com.menu.digital.menudigital.dto.FoodRequestDTO;
-import com.menu.digital.menudigital.dto.FoodResponseDTO;
-import com.menu.digital.menudigital.service.FoodService;
+import com.menu.digital.dto.FoodRequestDTO;
+import com.menu.digital.dto.FoodResponseDTO;
+import com.menu.digital.service.FoodService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -13,18 +13,18 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping(name = "food")
+@RequestMapping("/food")
 public class FoodController {
 
     @Autowired
     private FoodService foodService;
 
-    @PostMapping(name = "/addFood")
+    @PostMapping( "/addFood")
     public void create(@RequestBody FoodRequestDTO data) {
         foodService.createItemOnMenu(data);
     }
 
-    @GetMapping( name = "/listFoods")
+    @GetMapping("/listFoods")
     List<FoodResponseDTO> listFoods() {
         return foodService.listAllMenu();
     }
